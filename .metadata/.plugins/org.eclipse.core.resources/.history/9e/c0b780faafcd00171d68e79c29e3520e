@@ -36,7 +36,7 @@ public class DbUtil {
 				String user = prop.getProperty("user");
 				String password = prop.getProperty("password");
 				Class.forName(driver);
-				connection = DriverManager.getConnection("jdbc:ucanaccess://C:/Users/Kelvin/Documents/workspace/mie350_group15/src/db/mie350_group15.mdb;memory=false"); 
+				connection = DriverManager.getConnection("jdbc:ucanaccess://C:/Users/Kelvin/Documents/GitHub/mie350group15/mie350_group15/src/dbmie350_group15.mdb;memory=false"); 
 				
 				
 			} catch (ClassNotFoundException e) {
